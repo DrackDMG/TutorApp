@@ -1,0 +1,242 @@
+.av {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    max-width: 235px;
+    height: auto;
+}
+
+.desp {
+    font-size: 20px;
+    color: #ffffff;
+    float: right;
+    margin-right: 5px;
+    margin-top: 2.5px;
+}
+
+.cav {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding: 10px 23px 10px 0;
+}
+
+.mmnc {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+}
+
+.cardd {
+    padding: .2em;
+    background-color: rgba(34, 40, 49, .8);
+    backdrop-filter: blur(1px);
+    height: 25rem;
+    width: 16rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.9);
+    color: white;
+    margin: 1em;
+}
+
+.card__nam {
+    margin-top: 16px;
+    font-size: 1.5em;
+}
+
+.card__imag {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 5px solid #272133;
+    margin-top: 20px;
+    box-shadow: 0 3px 10px rgba(235, 25, 110, 1);
+}
+
+
+.draw-borde {
+    box-shadow: inset 0 0 0 4px #58cdd1;
+    color: #58afd1;
+    -webkit-transition: color 0.25s 0.0833333333s;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+}
+
+.draw-borde::before,
+.draw-borde::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    width: 0rem;
+    height: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.draw-borde::before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+}
+
+.draw-borde::after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+}
+
+.draw-bord:hover {
+    color: #ffe593;
+}
+
+.draw-bord:hover::before,
+.draw-bord:hover::after {
+    border-color: #eb196e;
+    -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+}
+
+.draw-borde:hover::before {
+    -webkit-transition-delay: 0s, 0s, 0.25s;
+    transition-delay: 0s, 0s, 0.25s;
+}
+
+.draw-borde:hover::after {
+    -webkit-transition-delay: 0s, 0.25s, 0s;
+    transition-delay: 0s, 0.25s, 0s;
+}
+
+.btns {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 700 1.2rem 'Roboto Slab', sans-serif;
+    padding: 0.75em 2em;
+    letter-spacing: 0.05rem;
+    margin: 1em;
+    width: 13rem;
+}
+
+.btns:focus {
+    outline: 2px dotted #55d7dc;
+}
+
+
+.comentarios {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px
+}
+
+.font {
+    margin: 0;
+    font-weight: 600;
+}
+
+.puntuacion {
+    font-weight: 500;
+    font-size: 16px;
+    filter: brightness(0.4);
+}
+
+.grid-comentarios {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-comentario {
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px;
+    width: 320px;
+    min-height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(255 255 255 / 35%);
+    backdrop-filter: blur(90px);
+}
+
+.cabecera-comentario {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px 0;
+}
+
+.img-com {
+    border-radius: 50%;
+}
+
+.estrellas {
+    font-size: 12px;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.comentario {
+    text-align: justify;
+    padding: 0 15px
+}
+
+
+
+input[type="radio"] {
+    display: none;
+}
+
+.label {
+    font-size: 30px;
+    color: grey;
+}
+
+.clasificacion {
+    margin: 0;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover~label {
+    color: orange;
+}
+
+input[type="radio"]:checked~label {
+    color: orange;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.label {
+    font-size: 25px;
+    color: grey !important;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover~label {
+    color: orange !important;
+}
+
+input[type="radio"]:checked~label {
+    color: orange !important;
+}

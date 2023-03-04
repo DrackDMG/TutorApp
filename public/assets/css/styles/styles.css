@@ -1,0 +1,121 @@
+#log {
+    background: rgb(237 236 241 / 90%);
+    backdrop-filter: blur(2px);
+}
+
+h4 {
+    color: #232358;
+    font-weight: 600
+}
+
+#lg strong {
+    color: #fff
+}
+
+
+.ft label {
+    color: #000
+}
+
+.ft i {
+    color: #000
+}
+
+#ft label {
+    color: #000
+}
+
+#ft i {
+    color: #000
+}
+
+#wp p {
+    color: #fff
+}
+
+#wp i {
+    color: #fff
+}
+
+#rt h5 {
+    color: #fff
+}
+
+#cr {
+    background: rgba(194, 194, 194, .5);
+    backdrop-filter: blur(5px);
+}
+
+#cr h4 {
+    color: #fff
+}
+
+#let {
+    color: #000
+}
+
+#let::placeholder {
+    color: rgb(48, 17, 17)
+}
+
+#pass {
+    color: #000
+}
+
+.text {
+    color: #000
+}
+
+#tx td {
+    color: #000;
+    font-size: 1rem;
+}
+
+#tx td span {
+    color: #000;
+    margin: 0 5px 0 5px
+}
+
+#txt td {
+    color: #000;
+    font-size: 12px
+}
+
+#txt th {
+    color: #000;
+    font-size: 14px
+}
+
+#txt button {
+    height: 35px;
+    width: 35px;
+    background-color: #913f9e;
+    border-radius: 100%;
+}
+
+#txt input {
+    height: 35px;
+    width: 12em;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding-left: 8px;
+}
+
+#txt i {
+    color: #fff
+}
+
+#ws {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ws span {
+    margin-left: 10px;
+    color: #25d366;
+}
+
+#ft .form-group div input {
+    color: #000
+}

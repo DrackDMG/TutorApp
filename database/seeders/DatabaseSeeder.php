@@ -13,6 +13,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        //php artisan migrate:fresh --seed
+        $this->call([
+            CrearAlumno::class,
+            CrearAsesor::class,
+            CrearAdministrador::class,
+        ]);
     }
 }
